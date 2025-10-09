@@ -9,4 +9,4 @@
 - 📫 How to reach me: https://www.linkedin.com/in/ayodeji-ogunsola/
 - 😄 Pronouns: He/Him.
 - ⚡ Fun fact: I pivoted from payroll analysis to cloud engineering and love learning by doing!
-Thanks for visiting!
+#### Thanks for visiting!
