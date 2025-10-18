@@ -35,3 +35,33 @@
 
 *This workaround not only helped me continue the tutorial but also gave me a deeper understanding of how identity and access management (IAM) plays a crucial role in cloud security and automation.*
 - Commands learned: `terraform init`, `fmt`, `validate`, `apply`, `show`, `state list`, `state show`.
+## 2025-10-03
+### SSH with Azure VMs
+
+- Created a Virtual Machine using the Azure Portal.
+- Selected the desired **Availability Zone**.
+- Enabled **SSH** as the authentication method.
+- Configured **inbound port 22** for SSH access.
+- Copied the VM's **public IP address**.
+- Downloaded the `.pem` private key to my computer for authentication.
+
+### Connecting via VS Code
+- Installed the **Remote - SSH** extension.
+- Added a new host using the following format:
+```text
+ssh user@hostname -i /privatekey filepath
+```
+
+* user = username created when adding the SSH public key to VM (default is azureuser)
+
+* hostname = Public IP address of the VM
+
+* filepath = path to the downloaded .pem private key
+
+* Successfully connected to the VM.
+
+### Run and Debug Code
+* Updated Linux packages on VM and installed Node.js.
+* Installed Express generator and created a new Express app. Ran `npm install` and started the server. Forwarded port 3000 to check the web app locally.
+* Opened the app in VS Code, set a breakpoint on line 10, and successfully debugged the application remotely. 
+* Learned how I can seamlessly develop on a remote machine via SSH.
