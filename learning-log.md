@@ -65,3 +65,11 @@ ssh user@hostname -i /privatekey filepath
 * Installed Express generator and created a new Express app. Ran `npm install` and started the server. Forwarded port 3000 to check the web app locally.
 * Opened the app in VS Code, set a breakpoint on line 10, and successfully debugged the application remotely. 
 * Learned how I can seamlessly develop on a remote machine via SSH.
+
+## 2025-10-10
+### Linux Basics
+- listed / hidden files
+- searching / filtering using grep
+- file size analysis
+- user & permission investigation
+- daily challenge tasks to build muscle memory
