@@ -35,6 +35,35 @@
 
 *This workaround not only helped me continue the tutorial but also gave me a deeper understanding of how identity and access management (IAM) plays a crucial role in cloud security and automation.*
 - Commands learned: `terraform init`, `fmt`, `validate`, `apply`, `show`, `state list`, `state show`.
+
+## 2025-10-01
+### Creating Resources
+When I first tried deploying to westus2, I got an error saying my subscription didn’t have access to that region.
+
+To fix this, I created a variable for location and set it to a region supported by my account:
+
+```
+variable "location" {
+  default = "canadacentral"
+}
+```
+This way, I can easily change the region later without editing multiple lines in my code — just by updating the variable.
+
+Next, I defined another variable for my resource group name:
+```
+variable "resource_group_name" {
+  default = "myTFResourceGroup"
+}
+```
+Then I referenced both variables in the resource block:
+```
+resource "azurerm_resource_group" "rg" {
+  name     = var.resource_group_name
+  location = var.location
+}
+
+```
+
 ## 2025-10-03
 ### SSH with Azure VMs
 

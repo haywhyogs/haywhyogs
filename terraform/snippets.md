@@ -9,6 +9,7 @@ terraform {
       version = "~> 3.0.2"
     }
   }
+
   required_version = ">= 1.1.0"
 }
 
@@ -17,11 +18,21 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
-  location = "westus2"
+  name     = var.resource_group_name
+  location = var.location
+}
+
+```
+**Variables.tf sample**
+```
+variable "resource_group_name" {
+  default = "myTFResourceGroup"
+}
+
+variable "location" {
+  default = "canadacentral"
 }
 ```
-
 ## Common Commands
 - terraform init – initializes the working directory and downloads providers.
 
