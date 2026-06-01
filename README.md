@@ -1,12 +1,12 @@
 ## Hi, I'm Ayodeji 👋
 
 ### About Me
-- 🔭 I’m currently working on learning cloud engineering and improving my Git/GitHub skills.
-- 🌱 I’m currently learning Microsoft Azure Admin Associate course.
-- 👯 I’m looking to collaborate on beginner-friendly cloud or automation projects.
-- 🤔 I’m looking for help with building hands-on experience in cloud administration.
-- 💬 Ask me about analytics,data storytelling or transitioning into tech!
+- 🔭 Currently building cloud-native systems with Docker, Azure, and Terraform.
+- 🌱 Experienced with Azure VM deployments, networking, and Managed Identity.
+- 🚀 Strong focus on automation, reproducibility, and zero-touch deployments.
+- 🔐 Advocate for secure-by-design systems (least privilege, no stored credentials).
+- 📊 Background in analytics and data storytelling — bringing a systems-thinking approach to engineering.
 - 📫 How to reach me: https://www.linkedin.com/in/ayodeji-ogunsola/
 - 😄 Pronouns: He/Him.
-- ⚡ Fun fact: I pivoted from payroll analysis to cloud engineering and love learning by doing!
+- ⚡ Ask me about Azure, CI/CD pipelines, or transitioning into tech.
 #### Thanks for visiting!
